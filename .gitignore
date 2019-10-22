@@ -1,0 +1,13 @@
+# Don't track content of these folders
+node_modules/
+someOtherfoler/
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

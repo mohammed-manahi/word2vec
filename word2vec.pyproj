@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>19478a7d-715c-4a69-b579-90f22f41b485</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>word2vec.py</StartupFile>
+    <StartupFile>basic_word2vec.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="word2vec.py" />
+    <Compile Include="basic_word2vec.py" />
+    <Compile Include="sourcecode2vec.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\data.csv" />
+    <Content Include=".gitignore" />
+    <Content Include="data\simpsons_dataset.csv" />
+    <Content Include="figure.png" />
     <Content Include="model.bin" />
     <Content Include="README.md" />
   </ItemGroup>
