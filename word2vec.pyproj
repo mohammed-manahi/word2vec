@@ -22,9 +22,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="basic_word2vec.py" />
-    <Compile Include="sourcecode2vec.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
